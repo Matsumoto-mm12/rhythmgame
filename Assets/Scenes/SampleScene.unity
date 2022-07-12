@@ -410,7 +410,7 @@ GameObject:
   - component: {fileID: 2041491620}
   - component: {fileID: 2041491621}
   m_Layer: 0
-  m_Name: Signal
+  m_Name: SignalReceiver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -443,12 +443,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noteFilter:
-    note: 1
+    note: 0
     octave: 0
   noteOnEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 11500000, guid: 9dee2f6c9103e534f9a01fc19b50cd78, type: 3}
         m_TargetAssemblyTypeName: 
         m_MethodName: 
         m_Mode: 1
