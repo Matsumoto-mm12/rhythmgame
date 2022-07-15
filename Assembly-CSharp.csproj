@@ -55,7 +55,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\note.cs" />
     <Compile Include="Assets\Scripts\notegenerator.cs" />
-    <Compile Include="Assets\Scripts\Note Instance.cs" />
+    <Compile Include="Assets\Scripts\NoteInstance.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
