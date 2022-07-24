@@ -15,10 +15,23 @@ public class JudgmentArea : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.A))
         {
             Debug.Log("aを入力");
-            RaycastHit2D hit2D = Physics2D.CircleCast(transform.position, radius, Vector3.zero);
+            RaycastHit2D hit2D = Physics2D.CircleCast(transform.position, 5, Vector3.zero);
             if (hit2D)
             {
-                Debug.Log("ノーツがぶつかった");
+                //Debug.Log("ノーツがぶつかった");
+                float distance = Mathf.Abs(hit2D.transform.position.y - transform.position.y); //絶対値
+                if(distance < 3)
+                {
+                    Debug.Log("great!");
+                }
+                else if (distance < 5)
+                {
+                    Debug.Log("good");
+                }
+                else
+                {
+                    Debug.Log("bad");
+                }
                 //ぶつかったものを破壊する
                 Destroy(hit2D.collider.gameObject);
             }
@@ -30,7 +43,7 @@ public class JudgmentArea : MonoBehaviour
     {
         // Draw a yellow sphere at the transform's position
         Gizmos.color = Color.red;
-        Gizmos.DrawSphere(transform.position, radius);
+        Gizmos.DrawSphere(transform.position, 5);
         
     }
 }
