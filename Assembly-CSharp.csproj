@@ -57,6 +57,7 @@
     <Compile Include="Assets\Scripts\note.cs" />
     <Compile Include="Assets\Scripts\notegenerator.cs" />
     <Compile Include="Assets\Scripts\JudgmentArea.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
