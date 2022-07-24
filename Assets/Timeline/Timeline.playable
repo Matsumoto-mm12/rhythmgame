@@ -22,10 +22,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 4.233333333333333
+    m_Start: 3.447524309158325
     m_ClipIn: 0
     m_Asset: {fileID: 2122926573837838246}
-    m_Duration: 208.3526530612245
+    m_Duration: 201.13580902417502
     m_TimeScale: 1
     m_ParentTrack: {fileID: -2838396285534508331}
     m_EaseInDuration: 0
@@ -89,7 +89,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: BB Yukus  Kaedekko
+    m_DisplayName: Rain
   m_Markers:
     m_Objects: []
   m_TrackProperties:
@@ -121,7 +121,7 @@ MonoBehaviour:
     m_Start: 3.447524309158325
     m_ClipIn: 0
     m_Asset: {fileID: 6441068606938357226, guid: f535c1b0b6b30483f8db7f2f0547678f, type: 3}
-    m_Duration: 116
+    m_Duration: 201.13580902417502
     m_TimeScale: 1
     m_ParentTrack: {fileID: -594083461747777650}
     m_EaseInDuration: 0
@@ -247,7 +247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
   m_Name: AudioPlayableAsset
   m_EditorClassIdentifier: 
-  m_Clip: {fileID: 8300000, guid: 8e0e77fb09a3eac47a3ddf0a97ac1a8c, type: 3}
+  m_Clip: {fileID: 8300000, guid: a6b4e45823eec4d66989a643f9cfe0bc, type: 3}
   m_Loop: 0
   m_bufferingTime: 0.1
   m_ClipProperties:

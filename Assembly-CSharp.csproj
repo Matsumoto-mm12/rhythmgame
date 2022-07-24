@@ -53,9 +53,10 @@
     <UnityVersion>2020.3.27f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\NoteInstance.cs" />
     <Compile Include="Assets\Scripts\note.cs" />
     <Compile Include="Assets\Scripts\notegenerator.cs" />
-    <Compile Include="Assets\Scripts\NoteInstance.cs" />
+    <Compile Include="Assets\Scripts\JudgmentArea.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
